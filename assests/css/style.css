@@ -74,5 +74,11 @@ header {
 /* __________________________________Styling for Cards section */
 
 .card {
+    font-family: "Montserrat", sans-serif;
+    
     color: black;
+}
+
+.card-body {
+    background-color: #78D5D7;
 }
