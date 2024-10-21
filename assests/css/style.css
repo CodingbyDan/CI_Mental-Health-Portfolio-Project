@@ -8,6 +8,17 @@
 }
 
 
+/* General styles */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    color: #F7F9F9;
+}
+
+
 /* Styling for the header */
 header {
     background-color: #F7F9F9;
@@ -19,13 +30,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    font-family: "Montserrat", sans-serif
+    
 }
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
-    font-family: "Montserrat", sans-serif
+    font-family: "Montserrat", sans-serif;
+    color: black;
 }
 
 #menu > li {
@@ -40,17 +54,25 @@ header {
 /* __________________________________Styling for hero section */
 
 #hero {
-    background-color: #63D2FF;
     background: url(/assests/images/Mr\ Blue\ Sky.jpg) no-repeat center center/cover;
-    min-height: 100vh;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F7F9F9;
 }
 
-#hero-quote {
-    position: absolute;
-    color: #F7F9F9;
-    font-size: 250%;
-    font-weight: 300;
-    top: 200px;
-    left: 30px;
-    width: 700px;
+
+/* __________________________________Styling for Emergency section */
+
+.emergency {
+    color: black;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+/* __________________________________Styling for Cards section */
+
+.card {
+    color: black;
 }
