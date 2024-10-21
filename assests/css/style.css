@@ -111,3 +111,21 @@ nav {
 .card-body {
     background-color: #78D5D7;
 }
+
+
+/* __________________________________Styling for Footer section */
+
+footer {
+    background-color: #F7F9F9;
+}
+
+footer > ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer > ul > li {
+    padding: 0px 30px;
+    font-size: xx-large;
+}
