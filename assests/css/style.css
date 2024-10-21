@@ -30,8 +30,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    font-family: "Montserrat", sans-serif
-    
+    font-family: "Montserrat", sans-serif    
+}
+
+header > label {
+    color: #2081C3
 }
 
 #menu {
@@ -46,8 +49,34 @@ header {
     margin-bottom: 1em;
 }
 
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    /* 0% tells this element to start at the top of the parent, and 100% is to start at the bottom */
+    top: 100%;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 .logo {
     font-family: "Montserrat", sans-serif;
+    color: #2081C3
 }
 
 
