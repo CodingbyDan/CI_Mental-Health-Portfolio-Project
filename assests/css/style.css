@@ -30,11 +30,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    font-family: "Montserrat", sans-serif    
+    font-family: "Montserrat", sans-serif;  
 }
 
 header > label {
-    color: #2081C3
+    color: #2081C3;
 }
 
 #menu {
@@ -107,6 +107,8 @@ nav {
     margin-top: 20px;
     text-align: center;
     padding: 5px;
+    margin-left: 20px;
+    margin-right: 30px;
 }
 
 #emergency-button {
