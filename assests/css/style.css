@@ -103,7 +103,7 @@ nav {
     font-size: larger;
     margin-left: 30px;
     margin-right: 30px;
-    margin-top: 30px;
+    margin-top: 150px;
     background-color: rgba(75, 100, 241, 0.7);
 }
 
@@ -135,6 +135,10 @@ nav {
 
 .card-body {
     background-color: #78D5D7;
+}
+
+.urgent-card {
+    margin-top: 200px;
 }
 
 /* __________________________________Styling for Footer section */
@@ -201,6 +205,10 @@ footer > ul > li {
     .card-body {
         min-height: 350px;
     }
+
+    #hero-quote {
+        font-size: x-large;
+    }
 }
 
 @media (min-width: 992px) {
@@ -210,5 +218,9 @@ footer > ul > li {
 
     .card-body {
         min-height: 280px;
+    }
+
+    #hero-quote {
+        font-size: xx-large;
     }
 }

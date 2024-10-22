@@ -1,131 +1,95 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Braincare - Portfolio Project
 
-Welcome Daniel Anderson,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Overview
+___
+### Purpose:
+The purpose of my page is to help direct users to useful resources and services regarding mental health. I wanted to keep the landing page relatively clear so not to bombard visitors with too much information. Instead, I wanted to provide clear options to take them where they need to go.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Target Audience:
+My target audience would be anyone seeking to find advice on services or anyone who may need to quickly find numbers for urgent mental health services.
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+## User Stories
+___
+### Must-Have User Stories:
 
-A blue button should appear to click: _Make Public_,
+User Story 1: User 1 has experienced extremely negative thoughts and is desperate to talk to someone about it, only they don't know who to turn to. They would unlikely want to read through lots of information to find the urgent contacts and may even change their mind about seeking help.
 
-Another blue button should appear to click: _Open Browser_.
+Acceptance Criteria: Anyone in this position would be a top priority, so I feel it would make the most sense to have a link to urgent contact numbers visible from first glance at the landing page.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+User Story 2: User 2 is curious about mental health and would simply like to find out more about different services and advice that they can access.
 
-To log into the Heroku toolbelt CLI:
+Acceptance Criteria: The landing page has 3 cards that link to pages focused on different areas of mental health, so they'll have a clearer idea of what's available.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+### Should-Have User Stories:
 
-### Connecting your Mongo database
+User Story 1:
+Acceptance Criteria:
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+User Story 2:
+Acceptance Criteria:
 
-------
 
-## Release History
+Could-Have User Stories:
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+User Story 1:
+Acceptance Criteria:
 
-**June 18, 2024,** Add Mongo back into template
+User Story 2:
+Acceptance Criteria:
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
 
-**May 28 2024:** Fix Mongo and Links installs
+## Design Decisions
+___
+### Wireframes
 
-**April 26 2024:** Update node version to 16
+My chosen colour scheme: I wanted to use an image of a mostly clear sky as the hero image, so I opted for similar shades of sky-like colours.
+![Chosen colour scheme](assests/images/Colour-scheme-reference.png)
 
-**September 20 2023:** Update Python version to 3.9.17.
+I used the mobile first development plan: I hadn't planned to, but I decided to add some simple stats about mental health at the bottom of the page, under the cards.
+![alt text](<assests/images/Mental Health Project (1).png>)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+I opted for the font Montserrat with a backup of sans-serif. I liked the roundness to the lettering and felt it worked nicelt with the light theme.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+I didn't want there to be too much information on the landing page so used cards to describe the different areas of the site, and buttons that take them there. The first button below the hero section is the urgent button, for anyone who may have landed on the site and is in desperate need to talk to someone.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+The background image for the hero section was found through a search and saved from https://wallpaperaccess.com/full/398864.jpg
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Accessibility Considerations
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Testing and Validation
+___
+### Testing Results
+The mobile display was pretty good at first but once the screen size increased, there were issues with the cards showing correctly, side-by-side but they were different heights. Ideally, I would have like to work out how to push the button down, but I felt time was against me.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Validation
+The only issue that was hightlighted by the validation check was a suggestion that I should use a h2 or div for my emergency text. I would have changed it, but I didn't want to do something that might introduce new problems this late.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Deployment
+___
+### Deployment Process
+I deployed the project to Github and checked it every now and again to make sure it would work properly when viewed from a source outside of Gitpod. Thankfully, this highlighed some issues with filenames and image reference paths.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Reflection on Development Process
+___
+### Successes
+I opted to use the documentation for bootstrap and examples of code from our Love Running project to help with things such as structure.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Challenges
+I struggled to get started. I had the vision in my mind but I couldn't work out how to start (beyond the boilerplate). It felt like the time you get into a car without an instructor sat next to you. 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+I started to place markers on the index and stylesheet so give myself some kind of path, but when I started to add things and tried to style them, nothing was behaving the way it should. I spent far too long trying to find the issue among the mess I'd set out, and became more frustrated. Eventually I decided to start from scratch.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+The second attempt went to plan and I discovered that I'd copied the wrong Bootstrap code into my head. I felt so stupid for missing something so obvious, and annoyed that I had less time to complete the project as a result.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Final Thoughts
+I've learned some importnat lessons from this challenge, and I feel like I gained some self-confidence in the process. I appreciate the importance of structure when starting out, but also that I need to learn how to organise me stylesheet better.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+## Future Improvements
+I would have loved to implement the other pages, and fix a few issues I ran out of time for/was too afraid to change for fear of causing more issues. I think a video about mental health would have been a nice addition to the main page too.
