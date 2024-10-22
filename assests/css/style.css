@@ -96,8 +96,16 @@ nav {
 
 .emergency {
     color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
     margin-top: 20px;
-    margin-left: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+#emergency-button {
+    margin-bottom: 10px;
+    background-color: orange;
 }
 
 /* __________________________________Styling for Cards section */
