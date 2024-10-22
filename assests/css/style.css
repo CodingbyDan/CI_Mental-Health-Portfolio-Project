@@ -104,12 +104,28 @@ nav {
 
 .card {
     font-family: "Montserrat", sans-serif;
-    
+    margin-bottom: 5px;
     color: black;
 }
 
 .card-body {
     background-color: #78D5D7;
+}
+
+
+/* __________________________________Styling for Footer section */
+
+.did-you-know {
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #2081C3;
+    font-weight: 600;
+}
+
+.did-you-list {
+    color: #2081C3;
+    margin-left: 20px;
+    padding: 5px;
 }
 
 
