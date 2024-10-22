@@ -26,11 +26,16 @@ header {
     position: fixed;
     z-index: 2;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #F7F9F9;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     font-family: "Montserrat", sans-serif;  
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 
 header > label {
@@ -43,6 +48,7 @@ header > label {
     list-style-type: none;
     font-family: "Montserrat", sans-serif;
     color: black;
+    list-style-type: none;
 }
 
 #menu > li {
@@ -52,11 +58,11 @@ header > label {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: v;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #2081c3;
     display: none;
     /* 0% tells this element to start at the top of the parent, and 100% is to start at the bottom */
     top: 100%;
@@ -64,6 +70,7 @@ nav {
 
 #nav-toggle:checked~nav {
     display: block;
+    background-color: #F7F9F9;
 }
 
 #nav-toggle {
@@ -76,7 +83,8 @@ nav {
 
 .logo {
     font-family: "Montserrat", sans-serif;
-    color: #2081C3
+    color: #2081C3;
+    margin-top: 5px;
 }
 
 
@@ -160,4 +168,39 @@ footer > ul {
 footer > ul > li {
     padding: 0px 30px;
     font-size: xx-large;
+}
+
+@media screen and (min-width: 769px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;    
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #F7F9F9;
+    }
 }
