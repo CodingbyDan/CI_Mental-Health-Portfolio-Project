@@ -91,6 +91,12 @@ nav {
     color: #F7F9F9;
 }
 
+#hero-quote {
+    font-size: larger;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
 
 /* __________________________________Styling for Emergency section */
 
